@@ -27,14 +27,11 @@ APP_ENV=production ruby proxy.rb
 
 If you use /tears.m3u8 as the path, we’ll serve you our test Tears of Steel manifest, with a single, English language subtitles track, otherwise, you can put any Mux public playback ID before the .m3u8 in the URL and we'll proxy that and return a version of that manifest with the _first_ subtitles track modified.
 
-DEFAULT, AUTOSELECT and FORCED will be set to "NO"
-http://localhost:4567/tears.m3u8
-
-DEFAULT, AUTOSELECT will be set to "YES". FORCED will be set to "NO"
-http://localhost:4567/tears.m3u8?default=YES&autoselect=YES
-
-Custom playback ID. DEFAULT, AUTOSELECT and FORCED will be set to "NO":
-http://localhost:4567/HDGj01zK01esWsWf9WJj5t5yuXQZJFF6bo.m3u8
+| URL | Behaviour |
+| --- | --- |
+| http://localhost:4567/tears.m3u8 | DEFAULT, AUTOSELECT and FORCED will be set to "NO" | 
+| http://localhost:4567/tears.m3u8?default=YES&autoselect=YES | DEFAULT, AUTOSELECT will be set to "YES". FORCED will be set to "NO" |
+| http://localhost:4567/HDGj01zK01esWsWf9WJj5t5yuXQZJFF6bo.m3u8 | Custom playback ID. DEFAULT, AUTOSELECT and FORCED will be set to "NO" |
 
 # License
 
