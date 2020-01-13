@@ -7,8 +7,8 @@ See [Example Usage](#example-usage) for more details.
 # Dependencies
 * Ruby
 * Gems: 
- * sinatra
- * httparty
+  * sinatra
+  * httparty
 
 # Deployment
 
