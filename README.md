@@ -1,8 +1,12 @@
+![HLS Tools](https://banner.mux.dev/HLS%20Vexillographer.svg)
+
 # HLS subtitles vexillographer
 
 A simple proxy service which manipulates subtitles flags (AUTOSELECT, FORCED, and DEFAULT) in HLS manifests hosted in Mux Video.
 
 See [Example Usage](#example-usage) for more details.
+
+Read the [blog post](https://mux.com/blog/subtitles-captions-webvtt-hls-and-those-magic-flags/).
 
 # Dependencies
 * Ruby
