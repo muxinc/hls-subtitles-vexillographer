@@ -1,5 +1,8 @@
 ![HLS Tools](https://banner.mux.dev/HLS%20Vexillographer.svg)
 
+> [!NOTE]
+> We routinely archive repositories that were created for blog posts and articles but haven't received an update in a while. That doesn't mean there's anything _wrong_ with the contents of the repo, just that it might be a little dusty.
+
 # HLS subtitles vexillographer
 
 A simple proxy service which manipulates subtitles flags (AUTOSELECT, FORCED, and DEFAULT) in HLS manifests hosted in Mux Video.
